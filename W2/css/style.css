@@ -16,7 +16,7 @@ body {
     width: 600px;
     height: 1000px;
     margin: auto;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     border: 0.1px solid;
     border-color: rgb(152, 180, 204);
@@ -26,10 +26,10 @@ body {
     width: 600px;
     height: 600px;
     margin: auto;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     border: 0.1px solid;
-    border-color: rgb(152, 180, 204);
+    border-color: rgb(192, 195, 197);
 }
 
 .input {
