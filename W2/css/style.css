@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @font-face { 
     font-family: "Amapola-Modern";  
     src: url("../fonts/Amapola-Modern.ttf") format("truetype"); 
@@ -13,7 +14,7 @@ body {
 
 .registration-form {
     width: 600px;
-    height: 900px;
+    height: 1000px;
     margin: auto;
     background-color: aliceblue;
     border-radius: 10px;
@@ -33,6 +34,8 @@ body {
 
 .input {
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
 }
 
 .title {
@@ -51,18 +54,14 @@ label {
     padding-right: 0px;
 }
 
-
 input {
     width: 60%;
     padding: 12px 20px; 
     margin: 8px 0;
-    display: inline-block;
-    border: 1.5px solid rgb(160, 158, 158);
+    border: 1.5px solid rgb(63, 60, 60);
     border-radius: 8px;
     font-size: 20px;
 }
-
-
 
 fieldset {
     border: 0px;

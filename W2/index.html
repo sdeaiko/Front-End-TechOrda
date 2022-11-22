@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link type="Image/x-icon" href="img/saitama.png" rel="icon">
     <title>Registration Form</title>
 </head>
 <body>
@@ -14,6 +15,7 @@
         <div class="input">
             <form action="login.html" target="_self">
                 <fieldset>
+
                     <label for="firstname">Username</label>
                     <input type="text" id="firstname" name="firstname">
             
@@ -31,6 +33,13 @@
 
                     <label for="checkbox" class="chekbox">I agree with the terms of use of this application</label>
                     <input type="checkbox" id="checkbox" name="agreement">
+
+                    <label for="yes">I watched onepunchman</label>
+                    <input type="radio" id="yes" name="watched">
+
+                    <label for="no">I  didn`t watch onepunchman</label>
+                    <input type="radio" id="no" name="watched">
+
                 </fieldset>
                 <button class="btn">Register</button>
             </form>

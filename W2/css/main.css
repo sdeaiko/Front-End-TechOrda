@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@font-face { 
+    font-family: "Amapola-Modern";  
+    src: url("../fonts/Amapola-Modern.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Amapola-Modern";
+    padding-bottom: 30px;
+}
+
+h2 {
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Amapola-Modern";
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+section {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    border-radius: 15px;
+    border: 2px rgb(204, 204, 204) solid;
+    height: 1100px;
+}
+
+.about {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.program {
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.table {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.exercises {
+    background-color: black;
+    color: white;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+    width: 60%;
+    display: block;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif; 
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+ul {
+    padding-right: 30px;
+}
+
+
+li {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+table {
+    margin-left: 40px;
+    height: 600px;
+    font-size: 22px;
+    border-collapse: collapse;
+    border: 1px rgb(0, 0, 0) solid;
+    letter-spacing: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.week {
+    width: 13%;
+}
+
+.monday {
+    width: 29%;
+    text-align: center;
+}
+
+.wednesday {
+    width: 29%;
+    text-align: center;
+}
+
+.friday {
+    width: 29%;
+    text-align: center;
+}
+
+td, th {
+    /* text-align: center; */
+    border: 1px solid rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+tr {
+    padding-right: 20px;
+    padding-right: 20px;
+}
+
+.sample-starter {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 23px;
+}
+
+.ex {
+    font-family: 'Ubuntu', sans-serif; 
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+dt {
+    padding-top: 30px;
+    font-size: 35px;
+}
+
+dd {
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.push-up {
+    padding-top: 20px;
+    font-size: 10px;
+}
