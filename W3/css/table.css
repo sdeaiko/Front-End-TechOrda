@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@font-face { 
+    font-family: "Amapola-Modern";  
+    src: url("../fonts/Amapola-Modern.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Amapola-Modern";
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+h2 {
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Amapola-Modern";
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0% auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    border-radius: 15px;
+    border: 2px rgb(204, 204, 204) solid;
+    height: 1100px;
+}
+
+#about {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    height: 1250px;
+}
+
+#program {
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#table {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+#table p {
+    padding-bottom: 15px;
+}
+
+.exercises {
+    background-color: black;
+    color: white;
+}
+
+#about > img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 800px;
+    width: 60%;
+    display: block;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif; 
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+ul {
+    padding-right: 30px;
+}
+
+
+li {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+table {
+    margin-left: 40px;
+    height: 600px;
+    font-size: 22px;
+    border-collapse: collapse;
+    border: 1px rgb(0, 0, 0) solid;
+    letter-spacing: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.week {
+    width: 13%;
+}
+
+.monday .wednesday .friday {
+    width: 29%;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+tr {
+    padding-right: 20px;
+    padding-right: 20px;
+}
+
+.sample-starter {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 23px;
+}
+
+.ex {
+    font-family: 'Ubuntu', sans-serif; 
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+dt {
+    padding-top: 30px;
+    font-size: 35px;
+}
+
+dd {
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+.push-up {
+    padding-top: 20px;
+    font-size: 10px;
+}
+
+.btn {
+    padding: 15px 80px;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    position: relative;
+    left: 75px;
+    top: 30px;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255); 
+    color: black;
+}
+
+
+

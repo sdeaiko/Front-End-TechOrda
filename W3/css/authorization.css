@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@font-face { 
+    font-family: "Amapola-Modern";  
+    src: url("../fonts/Amapola-Modern.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+body {
+    background-color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.registration-form {
+    width: 600px;
+    height: 1000px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 0.1px solid;
+    border-color: rgb(152, 180, 204);
+}
+
+.login-form {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 0.1px solid;
+    border-color: rgb(192, 195, 197);
+}
+
+.input {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.title {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: Amapola-Modern;
+    font-size: 38px;
+    font-weight: 400;
+    text-align: center;
+}
+
+label {
+    display: block;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-right: 0px;
+}
+
+input {
+    width: 60%;
+    padding: 12px 20px; 
+    margin: 8px 0;
+    border: 1.5px solid rgb(63, 60, 60);
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+fieldset {
+    border: 0px;
+}
+
+.btn {
+    padding: 10px 40px;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+  
+.btn:hover {
+    background-color: rgb(255, 255, 255); 
+    color: black;
+}
