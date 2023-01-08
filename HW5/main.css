@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(11, 20, 46);
+}
+
+.calc {
+    margin-top: 40px;
+    width: 250px;
+    height: 500px;
+    background-color: black;
+    margin: 0% auto;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px #18161d;
+}
+
+.buttons .btn {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    /* border-width: 2px; */
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    user-select: none;
+    background-color: rgb(70, 69, 74);
+    color: black;
+}
+
+.buttons {
+    display: grid;
+    grid-template-areas: 
+    "ac left-bracket right-bracket divide"
+    "seven eight nine multiply"
+    "four five six minus"
+    "one two three plus"
+    "zero zero dot equal";
+    justify-content: center;
+    gap: 5px;
+}
+
+.btn:hover {
+    filter: brightness(130%);
+}
+
+.btn:active {
+    filter: brightness(80%);
+}
+
+.buttons .top-panel {
+    background-color: rgb(126, 124, 139);
+}
+
+.buttons .right-panel {
+    background-color: rgb(61, 61, 174);
+}
+
+.buttons .zero {
+    grid-area: zero;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.output-display {
+    height: 120px;
+    max-width: inherit;
+    padding: 60px 20px 10px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+
+
+.output-display p {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: right;
+}
+
+.small-text {
+    font-size: 15px !important;
+}
