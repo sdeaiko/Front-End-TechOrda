@@ -22,7 +22,7 @@ nums.forEach(e => {
             result.innerHTML = output
                         
         } else if (e.target.innerHTML == 'CE') {
-            output = output.slice(0, -1);
+            output = String(output).slice(0, -1);
             result.innerHTML = output
             console.log(result.innerHTML)
         } else if (e.target.innerHTML == '=') {
