@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/partTwo.css">
+    <title>Part 2</title>
+</head>
+<body>
+
+    <div class="container">
+        <img src="../assets/uploading.png" alt="data uploading">
+        <button class="btn-upload">upload</button>
+
+        <div class="modal display-none">
+            <div class="modal-window">
+
+                <h2>Upload the file:</h2>
+
+                <label class="file">
+                    <input type="file" id="fileInput" multiple />
+                </label>
+    
+                <button class="upload">upload</button>
+
+                <div class="ok display-none">
+                    <p class="msg">Successfully uploaded!</p>
+                    <img src="../assets/nice.png" alt="niceee!!!">
+                </div>
+
+                <div class="notOk display-none">
+                    <p class="msg">Upload smth pls!</p>
+                    <img src="../assets/complain.png" alt="niceee!!!">
+                </div>
+
+                <img src="../assets/close.png" alt="close" id="close">
+            </div>
+    
+            <div class="overlay"></div>
+        </div>
+
+    </div>
+
+    
+    <script src="../partTwo.js"></script>
+    
+</body>
+</html>

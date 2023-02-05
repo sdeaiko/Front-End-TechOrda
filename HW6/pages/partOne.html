@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/selfie_segmentation/selfie_segmentation.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style/partOne.css">
+    <title>Part 1</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="cam">
+            <video class="video display-none"></video>
+            <canvas class="canvas display-none" width="800px" height="600px"></canvas>
+        </div>
+
+        <div class="btn-group">
+            <button class="btn turnOn">Turn on</button>
+            <button class="btn turnOff">Turn off</button>
+        </div>
+    </div>
+    
+    <script src="../partOne.js"></script>
+</body>
+</html>
